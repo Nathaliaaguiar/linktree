@@ -92,5 +92,24 @@ body {
     50%  { transform: scale(1.2); opacity: 0.7; }
     100% { transform: scale(1);   opacity: 1; }
   }
+  .dev-footer {
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 12px;
+    color: #ccc;
+    background-color: transparent;
+    margin-top: 40px;
+  }
+  
+  .dev-footer a {
+    color: #a08671;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .dev-footer a:hover {
+    color: #ffffff;
+  }
   
   
