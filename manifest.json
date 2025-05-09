@@ -1,13 +1,19 @@
 {
     "name": "RGRvidros",
     "short_name": "RGRvidros",
-    "start_url": "./index.html",
+    "start_url": "/",
     "display": "standalone",
-    "background_color": "#000000",
-    "theme_color": "#000000",
+    "background_color": "#010101",
+    "theme_color": "#010101",
+    "orientation": "portrait",
     "icons": [
       {
-        "src": "img/icon.png",
+        "src": "img/icone.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "img/icone.png",
         "sizes": "512x512",
         "type": "image/png"
       }
