@@ -3,8 +3,8 @@
     "short_name": "ConectPet",
     "start_url": "/",
     "display": "standalone",
-    "background_color": "#010101",
-    "theme_color": "#010101",
+    "background_color": "##fef6ed",
+    "theme_color": "#fef6ed",
     "orientation": "portrait",
     "icons": [
       {
