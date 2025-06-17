@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fdf7ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.doacao-card {
+  background-color: #d1c3b1;
+  border-radius: 30px;
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  text-align: center;
+  overflow: hidden;
+}
+
+header .pets {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px; /* adiciona espaço entre os elementos */
+}
+
+header .pets img {
+  width: 60px;
+  height: auto;
+}
+
+.logo {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 50%;
+  animation: float 3s ease-in-out infinite;
+}
+
+h1 {
+  font-size: 22px;
+  margin: 20px 0;
+  color: #2f2f2f;
+}
+
+.pix-info {
+  background-color: #fff7eb;
+  border-radius: 30px;
+  padding: 20px;
+  position: relative;
+}
+
+.pix-logo {
+  width: 180px;
+  margin-bottom: 10px;
+}
+
+.pix-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #5b5146;
+  margin: 0 0 20px;
+}
+
+.qrcode {
+  width: 50px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.chave-label {
+  font-size: 16px;
+  color: #5b5146;
+  margin-bottom: 5px;
+}
+
+.pix-chave {
+  background-color: #5b5146;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 25px;
+  display: inline-block;
+  font-size: 16px;
+}
